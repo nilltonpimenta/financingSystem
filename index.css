@@ -1,0 +1,15 @@
+body {
+    background: navy;
+    color: azure;
+    font: 11pt Tahoma;
+}
+
+.form-control {
+    margin: 10px;
+    width: 20em;
+}
+
+.form-select {
+    margin: 10px;
+    width: 20em;
+}
