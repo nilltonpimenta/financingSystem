@@ -17,7 +17,5 @@ body {
 table,
 th,
 td {
-    /*border: 19x solid white;
-    border-collapse: collapse;*/
     padding: 15px;
 }

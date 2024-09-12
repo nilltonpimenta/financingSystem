@@ -22,8 +22,8 @@
                 <input
                     type="number"
                     step="0.01"
-                    id="bem"
-                    placeholder="Valor do Bem"
+                    id="valor"
+                    placeholder="Valor do empréstimo"
                     class="form-control"
                 />
                 <input
@@ -66,21 +66,28 @@
                     <option value="3">3 meses</option>
                     <option value="4">4 meses</option>
                 </select>
-                <button type="button" class="btn btn-primary">Calcular</button>
+                <button
+                    id="botaoCalcular"
+                    class="btn btn-primary"
+                    type="button"
+                >
+                    Calcular
+                </button>
                 <button id="limpar" type="reset" class="btn btn-secondary">
                     Limpar
                 </button>
             </form>
         </div>
+        <br />
         <div class="container">
-            <table>
+            <table class="table table-striped">
                 <thead>
                     <tr>
-                        <td>Nº</td>
-                        <td>Valor da Parcela</td>
-                        <td>Amortização</td>
-                        <td>Juros</td>
-                        <td>Saldo Devedor</td>
+                        <th>Nº</th>
+                        <th>Valor da Parcela</th>
+                        <th>Amortização</th>
+                        <th>Juros</th>
+                        <th>Saldo Devedor</th>
                     </tr>
                 </thead>
                 <tbody id="corpoTabela"></tbody>
